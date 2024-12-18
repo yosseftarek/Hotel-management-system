@@ -11,7 +11,7 @@ export const connectToDb = () => {
     password: `${process.env.DB_PASSWORD}`,
     database: `${process.env.DB_NAME}`,
   });
-
+const x=4;
   conn.connect((err) => {
     if (err) console.log(err);
     else console.log("Database Connected");
